@@ -1,0 +1,86 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.app {
+  background-color: #04192e;
+}
+
+.app .header {
+  color: white;
+}
+
+.app .banner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.app .menu-user {
+  position: relative;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #cca943;
+  text-decoration: none;
+}
+
+.my-dropdown {
+  display: none;
+  position: absolute;
+  color: black;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  padding: 10px 16px;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.menu-user:hover .my-dropdown {
+  display: block;
+}
+
+.my-dropdown a {
+  color: black;
+}
+
+.app .main {
+  height: 700px;
+  display: flex;
+  color: white;
+}
+
+.app .main img {
+  width: 100%;
+}
+
+.main .diary-item {
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: #042847;
+  border-radius: 5px;
+}
+
+.icon-plus {
+  width: 100% !important;
+  height: 100% !important;
+  color: white;
+}
+
+.app .footer {
+  color: white;
+  background-color: #042847;
+}
+
+.app .footer .footer-copyright {
+  background-color: #062341;
+}
+
+/* ========login================== */
+.login-form {
+  width: 50%;
+}
